@@ -1,0 +1,7 @@
+#mapContainer {
+height:500px;
+width: 500px;
+background: lightgrey;
+margin: 0 auto; /*centers the div*/
+
+}
