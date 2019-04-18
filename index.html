@@ -4,15 +4,20 @@
 <head>
   <meta charset="utf-8">
 
-  <title>HW#3</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>NYC Green Instrastructure Map</title>
+
   <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
 </head>
 
 <body>
+  <div class='legend' style='position: absolute; bottom: 30px; right: 10px; z-index:1'>
+  <h4>This map shows green infrastructure (GI) projects in NYC excluding right-of-way projects.</h4>
+  <p>Click on a marker to show the GI type and its contributory waterbody.</p>
+  </div>
+
+
   <div class='legend'>
   <h4>GI Type</h4>
   <div><span style='background-color: #778899'></span>Subsurface/Detention System</div>
