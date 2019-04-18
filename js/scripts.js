@@ -34,7 +34,7 @@ gidata.forEach(function(giPoint) {
   })
     .setLngLat([giPoint.long, giPoint.lat])
     .setPopup(new mapboxgl.Popup({ offset: 40 })
-      .setText(`This ${giPoint.Asset_Type} is located in the ${giPoint.Waterbody} watershed`))
+      .setText(`Project Name: ${giPoint.Project_Na}. This ${giPoint.Asset_Type} is located in the ${giPoint.Waterbody} watershed.`))
     .addTo(map);
 })
 
